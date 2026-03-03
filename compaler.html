@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+
+    
+         body {
+            background-color: bisque;
+            
+        }
+        
+
+        section {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            grid-gap:20px;
+        }
+
+        .left-panel {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 9px;
+            height:500px;
+        }
+
+        .right-panel {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 9px;
+            height:500px;
+
+        }
+        
+
+         header {
+        font-size: 20px;
+        font-family: Arial;
+        padding: 10px;
+        background-color: rgb(136, 5, 136); 
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+
+        }
+
+     .bi-bootstrap {
+        font-size: 25px;
+        font-weight: bold;
+
+        }
+
+       .search-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 250px;
+        padding: 10px;
+        background-color: rgb(82, 6, 82);
+        border-radius: 15px;
+
+       }
+
+       .command-button {
+        background-color: #440244;
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 10px;
+       
+       }
+       .short-cut {
+        display: flex;
+        flex-direction: row;
+       }
+
+       nav span {
+        padding-right: 15px;
+       }
+
+       .short-cut span {
+        padding-right: 10px;
+       }
+       
+       .bi-chevron-down {
+        font-size: 15px;
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+         <div>
+            <nav>
+                
+                <span class="bi bi-bootstrap"></span>
+                <span>Docs</span>
+                <span>Icons</span>
+                <span>Blog</span>
+            </nav>
+        </div>
+        <div>
+            <div class="search-bar">
+            <div>
+                <span class="bi bi-search"></span>
+                <span>Search</span>
+                </div>
+                <div class="command-button">
+                    <span class="bi bi-command"></span>
+                    <span>K</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="short-cut">
+            <aside>
+                <span class="bi bi-github"></span>
+                <span class="bi bi-twitter-x"></span>
+                <span class="bi bi-opencollective"></span>
+            </aside>
+            <span>|</span>
+            <span>v5.3<span class=" bi bi-chevron-down"></span></span>
+        <span>|</span>
+        <span class="bi bi-brightness-high"></span>
+
+        </div>
+
+    
+
+    </header>
+
+    <section>
+        
+               <div class="left-panel">
+
+            </div>
+            <div class="right-panel">
+
+            </div>
+        
+
+    </section>
+
+</body>
+
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        footer {
+            background-color: rgb(55, 70, 117);
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            height: 500px;
+            padding: 20PX;
+            font-family: Arial;
+        }
+        .row-1 {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+        }
+        .left-panel {
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+        }
+        .right-panel {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            border-left: 0.5px solid rgb(234, 233, 233);
+            height: 400px;  
+            padding-left: 20px;
+         
+        }
+        .row-2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="row-1">
+            <div class="left-panel">
+                <div>col1</div>
+                <div>col2</div>
+                <div>col3</div>
+                <div>col4</div>
+
+            </div>
+
+        
+            <div class="right-panel">
+                <div>col1</div>
+                <div>col2</div>
+
+            </div>
+
+        </div>
+        <div class="row-2">
+            <span class="bi bi-person-fill">Become a seller</span>
+            <span class="bi bi-activity">Advertise</span>
+            <span class="bi bi-gift">Gift</span>
+            <span class="bi bi-question-circle">Help</span>
+
+            <span>
+                &Copyright 2026
+            </span>
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>

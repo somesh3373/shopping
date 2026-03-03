@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=".//node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-color:gray;
+        }
+        .card {
+            width: 250px;
+            border: 1px solid gray;
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px black;
+            margin: 20px;
+            font-family: arial;
+            background-color: aliceblue;
+        }
+        .card-img {
+            width: 100%;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .card-title {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .rating {
+            text-align: center;
+            color: goldenrod;
+            margin-left: 30px;
+        }
+        .course-details ul {
+            list-style: none;
+            margin-left: 30px;
+        }
+        .course-details ul li {
+            margin-top: 10px;
+            font-family:arial;
+            font-weight: bold;
+        }
+         .card-footer {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            text-align: center;
+        }
+        .btn-enroll {
+            padding: 10px;  
+            background-color: blue;
+            color: aliceblue;
+            font-size: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        .btn-share {
+             font-size: 20px;
+            padding: 10px;
+            border-bottom-right-radius: 20px;
+            background-color: whitesmoke    
+             
+
+        }
+        main {
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="card">
+        <div claa="card-header"> 
+            <img class="card-img"src=".\public\images\Data_Sci_a1.jpg" >
+        </div>
+        <div class="card-body">
+            <div class="card-title">Data Base</div>
+            <div class="rating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-half"></span>
+            </div>
+            <div class="course-details">
+                <ul>
+                    <li class="bi bi-calendar-date"><span>start date on 11/feb/26</span></li>
+                    <li class="bi bi-person"><span>mr nanni</span></li>
+                    <li class="bi bi-clock-fill"><span>Duration 9months</span></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="card-footer">
+        <div class="btn-enroll">
+             Enroll
+    </div>
+    <div class="btn-share">
+        <span class="bi bi-share fill"></span> Share
+    </div>
+
+        </div>
+
+        </div>
+         <div class="card">
+        <div claa="card-header"> 
+            <img class="card-img"src="./public/images/dot net a2.png" >
+        </div>
+        <div class="card-body">
+            <div class="card-title">Dot Net</div>
+            <div class="rating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-half"></span>
+                <span class="bi bi-star-half"></span>
+            </div>
+            <div class="course-details">
+                <ul>
+                    <li class="bi bi-calendar-date"><span>start date on 22/feb/26</span></li>
+                    <li class="bi bi-person"><span>mr nanni</span></li>
+                    <li class="bi bi-clock-fill">Duration 8months<span></span></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="card-footer">
+        <div class="btn-enroll">
+             Enroll
+    </div>
+    <div class="btn-share">
+        <span class="bi bi-share fill"></span> Share
+    </div>
+
+        </div>
+
+        </div>
+         <div class="card">
+        <div claa="card-header"> 
+            <img class="card-img"src=".\public\images\power-bi a3.jpg" >
+        </div>
+        <div class="card-body">
+            <div class="card-title">Power-Bi</div>
+            <div class="rating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="course-details">
+                <ul>
+                    <li class="bi bi-calendar-date"><span>start date on 01/mar/26</span></li>
+                    <li class="bi bi-person"><span>mr nanni</span></li>
+                    <li class="bi bi-clock-fill">Duration 2months<span></span></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="card-footer">
+        <div class="btn-enroll">
+             Enroll
+    </div>
+    <div class="btn-share">
+        <span class="bi bi-share fill"></span> Share
+    </div>
+
+        </div>
+
+        </div>
+         <div class="card">
+        <div claa="card-header"> 
+            <img class="card-img"src=".\public\images\angularjs-online.png" >
+        </div>
+        <div class="card-body">
+            <div class="card-title">AngularJs</div>
+            <div class="rating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="course-details">
+                <ul>
+                    <li class="bi bi-calendar-date"><span>start date on 26/feb/26</span></li>
+                    <li class="bi bi-person"><span>mr nanni</span></li>
+                    <li class="bi bi-clock-fill">Duration 2months<span></span></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="card-footer">
+        <div class="btn-enroll">
+             Enroll
+    </div>
+    <div class="btn-share">
+        <span class="bi bi-share fill"></span> Share
+    </div>
+
+        </div>
+
+        </div>
+        <div class="card">
+        <div claa="card-header"> 
+            <img class="card-img"src=".\public\images\python.jpg " >
+        </div>
+        <div class="card-body">
+            <div class="card-title">Python</div>
+            <div class="rating">
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+                <span class="bi bi-star-fill"></span>
+            </div>
+            <div class="course-details">
+                <ul>
+                    <li class="bi bi-calendar-date"><span>start date on 06/mar/26</span></li>
+                    <li class="bi bi-person"><span>mr nanni</span></li>
+                    <li class="bi bi-clock-fill">Duration 6months<span></span></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="card-footer">
+        <div class="btn-enroll">
+             Enroll
+    </div>
+    <div class="btn-share">
+        <span class="bi bi-share fill"></span> Share
+    </div>
+
+        </div>
+
+        </div>
+    </main>
+    
+</body>
+</html>

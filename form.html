@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+            width: 900px;
+            border: 2px solid black;
+            border-radius: 7px;
+            padding: 20px;
+            margin-right: 20px;
+            background-color: beige;
+        }
+        .title {
+             text-align:center;
+        }
+         
+        .sub-title {
+            font-size: 18px;
+            margin-left: 10px;
+            margin-bottom: 8px;
+        }
+         
+              
+        .client-name {
+             display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 40px;
+            border-radius: 8px;
+        }
+        .client-phone-details {
+             display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-right: 287px;
+            margin-bottom: 40px;
+        }
+        .client-addess {
+            margin-left: 29px;
+            margin-bottom: 15px;
+        }
+        .address {
+            margin-bottom: 7px;
+        }
+        .address-1{
+            margin-bottom: 7px;
+        }
+        .address-2 {
+             margin-bottom: 7px;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+              margin-right: 337px;
+        }
+        .code {
+             margin-bottom: 7px;
+        }
+        .submit-btn {
+            
+            
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+         button {
+            background-color: gold;
+            display: block;
+             margin: auto;
+            color: azure;
+         }
+        form input {
+            
+            border-radius: 7px;
+            background-color: lightgrey;
+            font-size: 20px;
+            height: 35px;
+             
+            
+        }
+        .address input {
+            width: 850px;
+        }
+        .address-1 input {
+             width: 850px;
+        }
+        .commemt input {
+            width: 500px;
+            height: 150px;
+        }
+        .commemt {
+            margin-bottom: 20px;
+            margin-left: 24px;
+        }
+            
+        
+       
+    
+        
+
+    </style>
+</head>
+<body>
+    <form>
+        <div class="card">
+             <div class="title">
+                <h2>Contact Form</h2>
+             </div>
+                 <div class="sub-title"> Client Name </div>
+             <div class="client-name">
+                    <div class="first-n"> 
+                    <input type="text" name="text" required>
+                      <div>First Name</div>
+                      </div>
+                      <div class="mid-n">
+                    <input type="text" name="text" required>
+                     <div>Middile Name</div>
+                     </div>
+                     <div class="last-n">
+                    <input type="text" name="text" required>
+                      <div>Last Name</div>
+                      </div>
+                </div>
+             <div class="client-phone-details" >
+             <div class="ph-no">
+                <div>Phone Number</div>
+                <input type="text" name="phone" required placeholder="(000) 000-0000">
+                <div>Please enter a valid phone number.</div>
+             </div>
+             <div class="mail">
+                <div>E-mail</div>
+                <input type="email" name="email" required placeholder="ex-myname@example.com">
+                <div>ex-myname@example.com</div>
+             </div>
+            </div>  
+            <div class="client-addess">
+                <div class="address">
+                     <div>Address</div>
+                     <input type="text" name="address" required >
+                </div>
+                <div class="address-1">
+                     <div> Street Address</div>
+                     <input type="text" name="address" required >
+                </div>
+                <div>Street Address Line 2</div>
+                <div class="address-2"> 
+                     <div class="city">
+                      <input type="text" name="address" required >
+                     <div>city</div>
+                     </div>
+                     <div class="state">
+                      <input type="text" name="address" required >
+                     <div>State/Province</div>
+                     </div>
+                </div>
+                <div class="code">
+                       <input type="text" name="address" required >
+                       <div>Postal/Zip Code</div>
+                </div>
+            </div>
+            <div class="commemt">
+                <div>Comment</div>
+                <input type="tex" name="comment" required >
+            </div>
+            <button class="submit-btn">
+                <span>Submit</span>
+                </button>
+        </div>    
+    </form>
+</body>
+</html>

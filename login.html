@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+     <style>
+        .card {
+            width: 350px;
+            border-image: url("/images/border-2.jpg") space  ;
+            padding-left: 20px;
+            border-radius: 10px;
+            background-image: url("../public/images/bg-color.jpg");
+            background-size: cover;
+        }
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .subtitle {
+            font-size: 10px;
+            font-family: sans-serif;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+            color: gray;
+        }
+        .card-body {
+            text-align: center;
+             
+            
+        }
+        .card-body input {
+             border-radius: 7px;
+        }
+        .btn {
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+        }
+        .password {
+             color: rgb(30, 5, 132);
+            padding-right: 10px;
+            font-weight: bold;
+        }
+        .me {
+            padding-right: 40px;
+        }
+        .sign-btn {
+            width: 300px;
+            background-color: rgb(8, 8, 154);
+            color: white;
+            font-size: 19px;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: row;
+           justify-content: center;
+           padding: 5px;
+           margin-bottom: 20px;
+           margin-top: 20px;
+           margin-left: 10px;
+        
+        } 
+        .body-footer {
+            text-align: center;
+             margin-bottom: 20px;
+        }
+        .text {
+             color: rgb(30, 5, 132);
+             
+        }
+
+        form {
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 200px;
+        }
+        .password i {
+            margin-left: -27px;
+        }
+        
+            
+        
+
+     </style>
+    
+</head>
+<body>
+    <form >
+        <div class="card">
+            <div class="card-body">
+                 
+                <div class="title">Sign In</div>
+                <div class="subtitle">Enter Your Credentials To Continue</div>
+                  
+            </div>
+            <div class="card-body">
+                <div class="email">
+                <input type="email" name="email" required placeholder="Email" border-radius="10px">
+                <br><br><br>
+                </div>
+                <div class="password">
+                <input type="password" name="password"  required placeholder="Password"> 
+                <i class="bi bi-eye"></i>
+                <br><br><br>
+                </div> 
+                <div class="btn">
+                <input type="checkbox" name="checkbox" required>
+                <div class="me">Remember me</div>
+                <div class="password">Forgot password?</div> 
+                </div>
+            </div>
+            <div class="sign-btn">
+                Sign In
+            </div>
+            <div class="body-footer">
+                <span>Don`t have an account?</span><span class="text">Create one</span>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

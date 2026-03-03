@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href=".//node_modules/bootstrap-icons/font/bootstrap-icons.css">
+ 
+    <style>
+        p::first-letter {
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 20px;   
+            float: left;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+        }
+        li::after {
+            content: ">";
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 10px;
+            padding-right: 10px;
+            color: aquamarine;
+            
+        }
+        li:last-child::after {
+            content: "";
+        }
+        li {
+            font-size: 40px;
+            color: blueviolet;
+            font-weight: bold;
+        }
+        p::selection {
+            background-color: aquamarine;
+            text-decoration: underline;
+        }
+        
+        #txtname:optional+span {
+            display: none;
+        }
+         #txtname:required+span {
+             display: inline;
+             color: brown;
+         }
+          #txtname:valid+span {
+            display: none;
+          }
+        
+        </style>
+ </head>      
+     <body>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illum 
+            repudiandae maiores iure adipisci suscipit voluptatum similique. Eum magnam 
+            odit labore voluptatibus porro, 
+            fuga libero aliquid delectus voluptatum. Explicabo, natus.</p>
+            <ul>
+                <li>home</li>
+                <li>home</li>
+                <li>home</li>
+                <li>home</li>
+               
+                 
+            </ul>
+            <dl>
+                <dt>user name</dt>
+                <dd>
+                    <input type="text" required id="txtname"><span>*</span>
+                </dd>
+            </dl>
+</body>
+</html>
